@@ -30,7 +30,7 @@ JavaScript
 
     var sectionTemplate = document.getElementById('sectionTemplate').innerHTML;	
     
-    var section1 = TemlateMaker(sectionTemplate, {
+    var section1 = TemplateMaker(sectionTemplate, {
 	  title: "When Robots Take Over",
 	  copy: "This book takes place in the near future. It is told from the perspective of a Facebook Oculus Rift developer working on a site project that ultimately leads to the misuse of virual spacial aware autonomous transportation units take over",
 	  clickHandler: function(e){
@@ -88,7 +88,7 @@ Next I'll specify my template. It is easiest if this is a string. You should be 
 
 Next we make our template by combining the Template and the Content.
 	
-	var $rotatorTemplate = TemlateMaker(sectionTemplate, rotatorContent[0]);
+	var $rotatorTemplate = TemplateMaker(sectionTemplate, rotatorContent[0]);
 	$('body').append($rotatorTemplate);
 	
 So let's look at updating the content. I'll use `setInterval` to fire a function every 2000 ms that increments the current sections, check if it's bigger than the number of sections we have total, and if so, set it's value  to 0.

@@ -24,7 +24,7 @@ SOFTWARE.
 
 */
 
-function TemlateMaker(stringTemplate, contentObject){
+function TemplateMaker(stringTemplate, contentObject){
   var $template = $(stringTemplate);
   var areas = stringTemplate.match(/{{\s*[\w\.]+\s*}}/g);
   var $elements = [];

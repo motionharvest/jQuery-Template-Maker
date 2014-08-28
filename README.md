@@ -21,7 +21,7 @@ HTML
        <section>
          <h3>{{title}}</h3>
          <p>{{copy}}</p>
-         <a href="#" on-click="handleClick">{{cta}}</a>
+         <a href="#" on-click="clickHandler">{{cta}}</a>
        </section>
     </script>
 

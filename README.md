@@ -109,10 +109,9 @@ It's really that easy. Send it new data to update with, and It will update with 
 
 Limitations
 ---
-This isn't a mustache replacement. It only works for the content between tags. And elements that implement the `on-click` data attribute. Expanding this library will be a side project.
+This isn't a mustache replacement. It only works for the content between tags. And elements that implement the `on-click` data attribute. Expanding this library will be a side project. But do feel free to send pull requests with features you've added to your clone.
 
-If you don't know what you're doing, I'm sure you can break it. I suggest only using this if you don't mind trouble shooting while you add features. It's writen logically, without any syntax shortcuts, so those who just know a little jQuery can figure it out.
-
+If you don't know what you're doing, I'm sure you can break it. Be ready to troubleshoot while you add features. It's writen logically, and those who just know a little jQuery can figure it out with some Googling "jQuery _____".
 
 
 Wishlist

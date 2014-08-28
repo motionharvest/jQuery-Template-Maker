@@ -1,4 +1,4 @@
-jQuery-Templating-Helper
+jQuery Template Maker
 ========================
 
 A small bit of logic for controlling a template by accessing element's node values and click events.

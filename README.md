@@ -41,7 +41,7 @@ JavaScript
     
     $('body').append(section1);
 
-[JSBin Example](http://jsbin.com/rokini/21/edit)
+[JSBin Example](http://jsbin.com/rokini/28/edit)
 
 Update Your Template With New Content
 ---
@@ -105,7 +105,7 @@ So let's look at updating the content. I'll use `setInterval` to fire a function
 
 It's really that easy. Send it new data to update with, and It will update with it.
 
-[JSBin Example](http://jsbin.com/rokini/25/edit)
+[JSBin Example](http://jsbin.com/rokini/27/edit)
 
 Limitations
 ---
